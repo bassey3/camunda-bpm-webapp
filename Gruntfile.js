@@ -240,7 +240,6 @@ module.exports = function(grunt) {
     if (
       typeof app === 'undefined' ||
       app === 'tasklist' ||
-      app === 'cockpit' ||
       app === 'admin'
     ) {
       tasksToRun.push('localescompile');
